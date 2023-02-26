@@ -1,0 +1,64 @@
+body{
+    overflow:hidden;
+}
+.container-fluid{
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login-box {
+    position: fixed;
+    box-shadow: 10px 10px 51px 0px rgba(0,0,0,0.75);
+    border-style: solid;
+    border-color: rgb(3, 248, 39);
+    border-width: 5px;
+    border-radius: 25%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,81,167,1) 5%, rgba(9,9,121,1) 23%, rgba(5,204,244,1) 100%);
+    width: 20vw;
+    height: 30vh;
+    min-width: 200px;
+    min-height:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    overflow: hidden;
+    z-index: 1;
+}
+#bg-vid{
+    position:fixed;
+    overflow:hidden;
+    min-height:100%;
+    z-index: 0;
+}
+
+#username, #password-in
+{
+    margin-top:3px;
+    border-radius: 10px;
+    background-color: rgb(234, 238, 241);
+    font-weight: bold;
+    width:10vw;
+}
+
+#login-button
+{
+    margin-top:3px;
+    border-radius:5em;
+    width:5vw;
+    height:3vh;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,81,167,1) 5%, rgba(9,9,121,1) 23%, rgba(5,204,244,1) 100%);
+}
+
+@media (any-hover:hover){
+    #username:hover, #password-in:hover{
+        background-color:rgb(124, 124, 124); 
+    }
+
+}
